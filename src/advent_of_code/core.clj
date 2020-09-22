@@ -1,4 +1,4 @@
-(ns aoc-clj.core
+(ns advent-of-code.core
   (:require [clojure.string :refer [split-lines]]
             [clojure.java.io :as io])
   (:gen-class))
@@ -15,6 +15,3 @@
        (io/resource)
        (slurp)
        (split-lines)))
-
-(read-lines "day2-input")
-(io/resource "/home/curtis/programming/aoc-clj/resources/day2-input")
