@@ -1,7 +1,7 @@
-(ns aoc-clj.opc
+(ns advent-of-code.opc
   (:require [clojure.string  :as str]
             [clojure.edn     :as edn]
-            [aoc-clj.core    :refer [read-lines]]))
+            [advent-of-code.core    :refer [read-lines]]))
 
 
 (defn parse-int [s] (Integer/parseInt s))
