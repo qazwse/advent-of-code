@@ -11,9 +11,6 @@
   [filename]
   (mapv edn/read-string (mapv #(str/trim %) (str/split (read-lines filename) #","))))
 
-(read-program "day2-input")
-
-
 (defn get-op-code
   "Returns a symbol of the op-code"
   [oc]
